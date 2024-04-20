@@ -1,0 +1,32 @@
+body {
+  background-color: #16161d;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 36px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 200px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #3a7d44;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  margin-bottom: 8px;
+}
+
+button:hover {
+  background-color: #285929;
+}
